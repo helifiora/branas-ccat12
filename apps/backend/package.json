@@ -9,5 +9,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/core": "^5.7.14",
+    "@mikro-orm/sqlite": "^5.7.14",
+    "better-sqlite3": "^8.5.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.4"
+  }
 }
