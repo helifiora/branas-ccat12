@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { Cpf } from "../src/cpf.ts";
+import { Cpf } from "../src/domain/cpf.ts";
 
 test.each(["83432616074", "74587887803", "87175659520"])("Should test valid cpf - %s", (value: string) => {
   expect(Cpf.isValid(value)).toBe(true);
